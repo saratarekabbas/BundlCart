@@ -14,6 +14,6 @@
             <a href="#" class="hover:text-themeTextHover">Deals</a>
         </div>
         {{--Button--}}
-        <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-themePrimaryRed rounded-full baseline hover:bg-themeLightRed">Get Started</a>
+        <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-themePrimaryRed rounded-full baseline hover:bg-themeLightRed font-semibold">Get Started</a>
     </div>
 </nav>

@@ -4,7 +4,7 @@
     {{--Hero Section--}}
     <section id="hero">
         {{--Flex Container--}}
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 space-x-0">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-24 space-y-0 space-x-0">
             {{--Left Item: Text--}}
             <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
                 <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left text-themeTextBlack">
@@ -15,7 +15,7 @@
                     subscribe with confidence, and experience the future of e-commerce right here.</p>
                 <div class="flex justify-center md:justify-start">
                     <a href="#"
-                       class="p-3 px-6 pt-2 text-white bg-themePrimaryRed rounded-full baseline hover:bg-themeLightRed">Get
+                       class="py-3 px-6 text-white bg-themePrimaryRed font-semibold rounded-full baseline hover:bg-themeLightRed shadow-xl">Get
                         Started</a>
                 </div>
             </div>
@@ -52,7 +52,7 @@
     {{--Features Section--}}
     <section id="features">
         {{--Flex Container--}}
-        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <div class="container flex flex-col px-4 mx-auto mt-24 space-y-12 md:space-y-0 md:flex-row">
             {{--"What's Different" Section--}}
             <div class="flex flex-col space-y-12 md:w-1/2">
                 <h2 class="max-w-md text-4xl font-bold text-center md:text-left text-themeTextBlack">What's different
@@ -66,9 +66,9 @@
             <div class="flex flex-col space-y-8 md:w-1/2">
                 {{--List Item 1--}}
                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
-                    <div class="rounded-l-full bg-themeLighterRed md:bg-transparent">
+                    <div class="rounded-l-full bg-themeSuperLightRed md:bg-transparent">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed">01</div>
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed shadow-xl font-semibold">01</div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden text-themeTextBlack">Track company-wide
                                 progress</h3>
                         </div>
@@ -83,9 +83,9 @@
                 </div>
                 {{--List Item 2--}}
                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
-                    <div class="rounded-l-full bg-themeLighterRed md:bg-transparent">
+                    <div class="rounded-l-full bg-themeSuperLightRed md:bg-transparent">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed">02</div>
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed shadow-xl font-semibold">02</div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden text-themeTextBlack">Advanced built-in
                                 reports</h3>
                         </div>
@@ -100,9 +100,9 @@
                 </div>
                 {{--List Item 3--}}
                 <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
-                    <div class="rounded-l-full bg-themeLighterRed md:bg-transparent">
+                    <div class="rounded-l-full bg-themeSuperLightRed md:bg-transparent">
                         <div class="flex items-center space-x-2">
-                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed">03</div>
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-themePrimaryRed shadow-xl font-semibold">03</div>
                             <h3 class="text-base font-bold md:mb-4 md:hidden text-themeTextBlack">Everything you need in
                                 one place</h3>
                         </div>
@@ -122,7 +122,7 @@
     {{--Testimonials Section--}}
     <section id="testimonials">
         {{--Container to the heading and the testimonials blocks--}}
-        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <div class="max-w-6xl px-5 mx-auto mt-44 text-center">
             {{--Heading--}}
             <h2 class="text-4xl font-bold text-center text-themeTextBlack">What's different about BundlCart?</h2>
             {{--Testimonials--}}
@@ -161,7 +161,7 @@
             {{--Button--}}
             <div class="my-16">
                 <a href="#"
-                   class="mx-auto px-6 pt-2 p-3 bg-themePrimaryRed text-white rounded-full hover:bg-themeLighterRed">Get
+                   class="mx-auto px-6 py-3 bg-themePrimaryRed text-white rounded-full hover:bg-themeLighterRed shadow-xl font-semibold">Get
                     Started</a>
             </div>
         </div>
@@ -171,16 +171,15 @@
     <section id="CTA" class="bg-themePrimaryRed">
         {{--Flex Container--}}
         <div
-            class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            class="container flex flex-col items-center justify-between px-6 py-24 mt-24 mx-auto space-y-12 md:py-16 md:flex-row md:space-y-0 md:mt-44">
             <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
-                Simplify how your team works today
+                Simplify how your team works today.
             </h2>
             <div><a href="#"
-                    class="mx-auto px-6 pt-2 p-3 bg-white text-themePrimaryRed rounded-full hover:shadow-xl">Get
+                    class="mx-auto px-6 py-3 bg-white text-themePrimaryRed rounded-full hover:shadow-xl hover:text-themeLighterRed font-semibold">Get
                     Started</a></div>
         </div>
     </section>
-
 
 @endsection
 

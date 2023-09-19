@@ -17,6 +17,7 @@ module.exports = {
                 themePrimaryRed: 'hsl(358, 74%, 54%)', //#E03339
                 themeLightRed: 'hsl(358, 74%, 64%)', //#E03339
                 themeLighterRed: 'hsl(358, 74%, 74%)', //#E03339
+                themeSuperLightRed: 'hsl(359,100%,92%)',
                 themeBackgroundGray: 'hsl(0, 0%, 93%)', //#EEEEEE
                 themeTextBlack: 'hsl(0, 0%, 20%)', //#333333
                 themeTextHover: 'hsl(0,0%,51%)',

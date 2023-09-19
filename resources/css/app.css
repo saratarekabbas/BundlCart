@@ -4,10 +4,10 @@
 
 /*HOMEPAGE STYLING*/
 body {
-    background: url('/public/assets/design-elements/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
+    background: url('/public/assets/design-elements/bg-tablet-pattern.svg'), url('/public/assets/design-elements/bg-tablet-pattern.svg');
+    background-repeat: no-repeat, no-repeat;
     background-size: 900px;
-    background-position: 90% -25%;
+    background-position: 90% -25%, -70% 60%;
 }
 
 #CTA {

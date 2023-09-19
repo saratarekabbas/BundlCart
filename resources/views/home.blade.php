@@ -128,7 +128,7 @@
             {{--Testimonials--}}
             <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
                 {{--Testimonial #1--}}
-                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-themeBackgroundGray md:w-1/3">
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-themeSuperLightGray md:w-1/3">
                     <img src="{{asset('./assets/avatars/avatar-anisha.png')}}" class="w-16 -mt-14"
                          alt=""> {{--Negative Margin Top; so that it comes out of it--}}
                     <h5 class="text-lg font-bold text-themeTextBlack">Anisha Li</h5>
@@ -138,7 +138,7 @@
                 </div>
                 {{--Testimonial #2--}}
                 <div
-                    class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-themeBackgroundGray md:w-1/3 md:flex">
+                    class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-themeSuperLightGray md:w-1/3 md:flex">
                     <img src="{{asset('./assets/avatars/avatar-ali.png')}}" class="w-16 -mt-14"
                          alt=""> {{--Negative Margin Top; so that it comes out of it--}}
                     <h5 class="text-lg font-bold text-themeTextBlack">Ali Bravo</h5>
@@ -148,7 +148,7 @@
                 </div>
                 {{--Testimonial #3--}}
                 <div
-                    class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-themeBackgroundGray md:w-1/3 md:flex">
+                    class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-themeSuperLightGray md:w-1/3 md:flex">
                     <img src="{{asset('./assets/avatars/avatar-shanai.png')}}" class="w-16 -mt-14"
                          alt=""> {{--Negative Margin Top; so that it comes out of it--}}
                     <h5 class="text-lg font-bold text-themeTextBlack">Shanai Richard</h5>

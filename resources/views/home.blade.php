@@ -20,8 +20,8 @@
                 </div>
             </div>
             {{--Right Item: Image--}}
-            <div class="w-1/2">
-                <img src="{{asset('./assets/illustrations/hero.avif')}}" alt="">
+            <div>
+                <img src="{{asset('./assets/illustrations/hero.png')}}" class="md:min-w-fit" alt="">
 
                 {{--                                <img src="{{asset('./assets/illustrations/hero (1).png')}}" alt="">--}}
                 {{--                <img src="{{asset('./assets/illustrations/hero (2).png')}}" alt="">--}}

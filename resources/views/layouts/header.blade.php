@@ -14,6 +14,25 @@
             <a href="#" class="hover:text-themeTextHover">Deals</a>
         </div>
         {{--Button--}}
-        <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-themePrimaryRed rounded-full baseline hover:bg-themeLightRed font-semibold">Get Started</a>
+        <a href="#"
+           class="hidden md:block p-3 px-6 pt-2 text-white bg-themePrimaryRed rounded-full baseline hover:bg-themeLightRed font-semibold">Get
+            Started</a>
+        {{--Hamburger Icon--}}
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+
+        {{--Mobile Menu--}}
+        <div class="md:hidden">
+            <div id="menu"
+                 class="absolute flex-col items-center self-end py-8 mt-10 hidden space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Pricing</a>
+                <a href="#">Products</a>
+                <a href="#">About Us</a>
+                <a href="#">Deals</a>
+            </div>
+        </div>
     </div>
 </nav>
